@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Stephen Davis
+Date: November 1, 2022
+File Name: apply08.html
 */
 
 /* CSS Reset */
@@ -20,6 +20,39 @@ body {
 #container {
 	width: 80%;
 	margin: 0 auto;
+}
+
+/* Style for the table element */
+table {
+  width: 80%;
+  margin: 0 auto;
+  border: 3px solid #71881b;
+}
+
+tr, th, td {
+  border-collapse: collapse;
+  padding: 2%;
+}
+
+caption {
+  font-size: 2em;
+  padding: 2%;
+  margin-top: 2%;
+}
+
+th, td {
+  border: 1px solid #7188bb;
+}
+
+td {
+  text-align: center;
+}
+
+tr {
+}
+
+tr:nth-child(odd) {
+  background-color: #d3e788;
 }
 
 /* Style for the footer element */
